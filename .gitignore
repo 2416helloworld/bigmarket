@@ -1,0 +1,21 @@
+# Go 构建产物
+backend/bin/
+backend/*.exe
+deploy/app/big-market-go
+
+# 前端依赖与构建产物
+frontend/node_modules/
+frontend/dist/
+frontend/vite.config.js.timestamp-*.mjs
+
+# 运行与本地数据
+*.log
+deploy/mysql-data/
+deploy/redis-data/
+.screenshots/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
